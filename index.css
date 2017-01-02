@@ -1,3 +1,21 @@
+li {
+    float: right;
+}
+
+ul {
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    color: gray;
+}
+
 img {
   margin-top: 110px;
   margin-left: 32%;
@@ -45,4 +63,9 @@ img {
     font-size: 13px;
     font-weight: bold;
     text-align: center;
+}
+
+footer  {
+  margin-top: 22%;
+  margin-right: 15px;
 }
