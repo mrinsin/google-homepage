@@ -1,21 +1,94 @@
-li {
-    float: right;
+.topbar
+{
+  margin-top: 7px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
 }
 
-ul {
-    background-color: #dddddd;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.elements
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
 }
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    color: gray;
+#Gmail-button
+{
+  opacity: .75;
 }
 
+#Gmail-button:hover
+{
+  opacity: .85;
+}
+
+.buttons
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+#app {
+  margin-left: -10px;
+  margin-top: 5px;
+  height: 50px;
+  width: auto;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+#Images-button
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: .75;
+}
+
+#Images-button:hover
+{
+  opacity: .85;
+}
+
+#Apps-button
+{
+  opacity: .55;
+}
+
+#Apps-button:hover, #Apps-button:focus
+{
+  opacity: .85;
+}
+
+#Signin-button
+{
+  margin-left: 15px;
+  font-weight: bold;
+  padding: 0 12px;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  background: #4387fd;
+  line-height: 28px;
+}
+
+#Signin-button a
+{
+  color: #fff;
+}
+
+#Signin-button a:hover
+{
+  text-decoration: none;
+}
 img {
   margin-top: 110px;
   margin-left: 32%;
@@ -65,7 +138,41 @@ img {
     text-align: center;
 }
 
-footer  {
-  margin-top: 22%;
-  margin-right: 15px;
+.footer
+{
+  position: relative;
+  margin-top: 27%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  width: 100%;
+  min-width: 990px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.s-left
+{
+
+}
+
+.s-right
+{
+  float: right;
+  margin-right: 30px;
+}
+
+.f-r-link
+{
+  padding-left: 27px;
+  margin: 0;
+  color: #666;
+}
+
+.f-l-link
+{
+  padding-left: 27px;
+  margin: 0;
+  color: #666;
 }
